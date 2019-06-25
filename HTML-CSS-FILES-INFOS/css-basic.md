@@ -21,3 +21,22 @@ Selector - ით მივუთითებთ თუ რომელ HTML ე
 
 - CSS Selectors
 სელექტორების არჩევა ხდება -ელემენტის სახელით, აიდით,კლასით ,ატრიბუტით და სხვა
+
+
+- არსებობს 3 გზა რომ ჩასვა CSS კოდში
+    - External style sheet/გარე სტილი
+    - Internal style sheet/შიდა
+    - Inline style/ზოლში
+
+
+- External style sheet -  html ში ცსს სტილის შემოღება ხდება `<link>` ით,
+
+ცსს რომელიც შემოგვაქ არ უნდა შეიცავდეს HTML თეგებს!
+<!-- -->
+    <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+
+- Internal Style Sheet - შიდა ანუ HTML კოდში შიგნითვე იწერება ხდება ცსს სტილი, CSS სტილი უნდა დაიწეროს `<head>`  თავში.    
+
+- inline style sheet - ამით ხდება შიგნით თეგებშივე ცსს სტილის შესრულება ატრიბუტ `style=''` მეშვეობით
