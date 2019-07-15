@@ -112,3 +112,18 @@ color - ფერის მინიჭება ჩარჩოსთვის
     }
 
 ამ კოდის შემდეგ მოხდება დივ ების ტექსტზე საზღვრის ჩასმა და გაფართოვება
+
+- <b>CSS Text -ელემენტები</b>
+
+    text-transform: uppercase;  დიდი ასოებით დაიწერება ტექსტი
+    
+    text-transform: lowercase; პატარა ასოებით დაიწერება ტექსტი 
+    
+    text-transform: capitalize; პირველი ასო დიდი იქნება.
+    
+    
+
+    letter-spacing: 1px; ასოებს შორის ადგილის დაშორება.
+    
+    text-shadow:0px 0px 3px green; ჩრდილის შექმნა.
+    
