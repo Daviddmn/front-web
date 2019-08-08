@@ -36,3 +36,7 @@ HTML წვრილმანები
 - <!--->
       <iframe src='pp.jpg' width="500" height="300"></iframe>
       iframe/ჩარჩო, რაიმე ლინკის,სურათის,ვიდეოსი და ა.შ ჩარჩოში ჩასმა და საიტზე გამოსახვა
+
+- placeholder ატრიბუტი, გამოიყენება input ში რაიმე მინიშნების ახსაღწერად, მაგალითად რომ შეიყვანო მანქანის სახელი და ა.შ
+კოდი : <input type="text"  name="car" placeholder='enter car mark:'><br>
+
